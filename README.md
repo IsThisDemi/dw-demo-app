@@ -1,4 +1,5 @@
 ![example workflow](https://github.com/IsThisDemi/dw-demo-app/actions/workflows/build.yml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/IsThisDemi/dw-demo-app/badge.svg?branch=master)](https://coveralls.io/github/IsThisDemi/dw-demo-app?branch=master)
 
 # DropWizard Demo Application
 
