@@ -20,7 +20,7 @@ jobs:
     - name: 🛠 Coveralls Coverage Report Setup
       run: sed -i.bak 's/stnRVqTFs7GuY5lIkSVtpqKZBQwofeWbS/${{ secrets.stnRVqTFs7GuY5lIkSVtpqKZBQwofeWbS }}/g' pom.xml
     - name: 🚀 Coveralls Coverage Report Submission
-      run: mvn coveralls:report
+      run: mvn -X coveralls:report
     
     - name: 🧹 Cleanup Repository Token
       if: ${{ always() }}
